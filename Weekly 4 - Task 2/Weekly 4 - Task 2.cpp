@@ -129,12 +129,14 @@ void player_control() {
 int main()
 {
     
+    std::cout << "\tWeekly 4 - Task 2\n\n Use 'WASD' to move @.\n\n";
     generate_board();
     display_board();
 
     do {
         player_control();
         system("CLS");
+        std::cout << "\tWeekly 4 - Task 2\n\n Use 'WASD' to move @.\n\n";
         display_board();
     } while (game_loop == true);
 
